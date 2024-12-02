@@ -1,0 +1,1 @@
+# wb-task-6-inventory
