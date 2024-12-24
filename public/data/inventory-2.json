@@ -1,0 +1,14 @@
+{
+  "rows": 12,
+  "columns": 12,
+  "items": [
+    {
+      "category": "armor",
+      "rarity": "rare",
+      "x": 0,
+      "y": 0,
+      "width": 3,
+      "height": 3
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+@import "../../styles/index.scss";
+
+.sidebar {
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  &__title {
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  &__select {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  &__legend {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      &-color {
+        display: inline-block;
+        border: 1.5px solid #000;
+        border-radius: 20px;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+
+        &--1 {
+          background-color: #c6c6c6;
+        }
+
+        &--2 {
+          background-color: #30b600;
+        }
+
+        &--3 {
+          background-color: #0061d8;
+        }
+
+        &--4 {
+          background-color: #9200e7;
+        }
+
+        &--5 {
+          background-color: #ff9d00;
+        }
+      }
+    }
+  }
+}
