@@ -3,7 +3,11 @@ import { RARITY_LEVELS } from "./SideBar.consts";
 import "./SideBar.scss";
 import { SideBarAndInventoryProps } from "../../types";
 
-export const SideBar = ({ currentInventory, setCurrentInventory }: SideBarAndInventoryProps) => {
+export const SideBar = ({
+  currentInventory,
+  setCurrentInventory,
+}: SideBarAndInventoryProps) => {
+  // тут ругался линтер, погуглил и вставил такой тип
   const handleSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setCurrentInventory(e.target.value);
   };
@@ -23,7 +27,7 @@ export const SideBar = ({ currentInventory, setCurrentInventory }: SideBarAndInv
             </option>
           ))}
         </select>
-        <h1 className="sidebar__title text">Легенда предметов:</h1>
+        <h1 className="sidebar__title text">Легенда:</h1>
         <ul className="sidebar__legend">
           {RARITY_LEVELS.map((rarity, index) => (
             <li key={nanoid()} className="sidebar__legend-item">

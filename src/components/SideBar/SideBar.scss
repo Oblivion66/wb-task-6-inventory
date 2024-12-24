@@ -2,10 +2,12 @@
 
 .sidebar {
   &__wrapper {
-    position: fixed;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     top: 0;
     right: 0;
-    width: 250px;
+    width: 300px;
     height: 100vh;
     background-color: #f2f2f2;
     padding: 20px;
@@ -18,9 +20,10 @@
 
   &__select {
     margin: 10px 0;
-    padding: 5px;
+    padding: 10px;
+    width: 100px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 6px;
   }
 
   &__legend {
@@ -42,23 +45,23 @@
         margin-right: 10px;
 
         &--1 {
-          background-color: #c6c6c6;
+          background-color: $common-color;
         }
 
         &--2 {
-          background-color: #30b600;
+          background-color: $uncommon-color;
         }
 
         &--3 {
-          background-color: #0061d8;
+          background-color: $rare-color;
         }
 
         &--4 {
-          background-color: #9200e7;
+          background-color: $epic-color;
         }
 
         &--5 {
-          background-color: #ff9d00;
+          background-color: $legendary-color;
         }
       }
     }
