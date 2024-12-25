@@ -7,24 +7,8 @@
       "rarity": "common",
       "x": 0,
       "y": 0,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "category": "weapon",
-      "rarity": "common",
-      "x": 1,
-      "y": 0,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "category": "weapon",
-      "rarity": "common",
-      "x": 2,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "width": 2,
+      "height": 2
     }
   ]
 }

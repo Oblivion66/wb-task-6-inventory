@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+.app {
+  font-family: $font;
+  background-color: $app-bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .text {
   font-family: $font;
 }
