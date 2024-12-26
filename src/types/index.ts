@@ -1,5 +1,5 @@
 export interface Item {
-  category: "weapon" | "armor" | "potion" | "artifact" | "resource";
+  category: "weapon" | "armor" | "potion" | "resource";
   rarity: "common" | "uncommon" | "rare" | "epic" | "legendary";
   x: number;
   y: number;

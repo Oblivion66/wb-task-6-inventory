@@ -49,7 +49,9 @@ export const Inventory = () => {
     <div className="inventory">
       <div className="inventory__wrapper">
         {error ? (
-          <h1 className="inventory__error text">{error}</h1>
+          <div className="inventory__error__wrapper">
+            <h1 className="inventory__error text">{error}</h1>
+          </div>
         ) : (
           <InventoryGrid rows={rows} columns={columns} items={items} />
         )}

@@ -4,10 +4,10 @@
   "items": [
     {
       "category": "weapon",
-      "rarity": "common",
-      "x": 0,
+      "rarity": "rare",
+      "x": 7,
       "y": 0,
-      "width": 1,
+      "width": 2,
       "height": 2
     },
     {

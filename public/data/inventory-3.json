@@ -1,0 +1,151 @@
+{
+    "rows": 10,
+    "columns": 10,
+    "items": [
+      {
+        "category": "armor",
+        "rarity": "common",
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "category": "weapon",
+        "rarity": "uncommon",
+        "x": 2,
+        "y": 0,
+        "width": 4,
+        "height": 2
+      },
+      {
+        "category": "armor",
+        "rarity": "epic",
+        "x": 0,
+        "y": 2,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "category": "armor",
+        "rarity": "rare",
+        "x": 0,
+        "y": 6,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "category": "weapon",
+        "rarity": "epic",
+        "x": 7,
+        "y": 4,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "category": "weapon",
+        "rarity": "common",
+        "x": 6,
+        "y": 0,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "category": "potion",
+        "rarity": "rare",
+        "x": 4,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "category": "potion",
+        "rarity": "common",
+        "x": 8,
+        "y": 8,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "category": "potion",
+        "rarity": "uncommon",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "category": "resource",
+        "rarity": "uncommon",
+        "x": 4,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "category": "resource",
+        "rarity": "epic",
+        "x": 4,
+        "y": 8,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "category": "resource",
+        "rarity": "common",
+        "x": 6,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "category": "resource",
+        "rarity": "common",
+        "x": 5,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "category": "resource",
+        "rarity": "common",
+        "x": 5,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "category": "resource",
+        "rarity": "rare",
+        "x": 8,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "category": "resource",
+        "rarity": "legendary",
+        "x": 5,
+        "y": 8,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "category": "weapon",
+        "rarity": "legendary",
+        "x": 4,
+        "y": 4,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "category": "weapon",
+        "rarity": "rare",
+        "x": 8,
+        "y": 0,
+        "width": 2,
+        "height": 4
+      }
+    ]
+  }
+  

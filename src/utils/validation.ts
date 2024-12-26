@@ -15,6 +15,10 @@ export const validateInventory = ({
     return "Инвентарь пуст";
   }
 
+  if (ROWS <= 0 || COLUMNS <= 0) {
+    return "Некорректный формат инвентаря";
+  }
+
   for (const item of items) {
     if (item.x < 0 || item.x >= COLUMNS) {
       return "Некорректное значение X";
@@ -50,20 +54,10 @@ export const validateInventory = ({
         item.y >= anotherItem.y + anotherItem.height
       );
       if (isOverlap) {
-        return `Предметы ${JSON.stringify(item)} и ${JSON.stringify(
-          anotherItem
-        )} перекрывают друг друга!`;
+        return `Некоторые предметы перекрывают друг друга!`;
       }
     }
 
-    if (
-      item.x < 0 ||
-      item.y < 0 ||
-      item.x + item.width > COLUMNS ||
-      item.y + item.height > ROWS
-    ) {
-      return `Предмет ${JSON.stringify(item)} выходит за пределы инвентаря`;
-    }
   }
   return null;
 };

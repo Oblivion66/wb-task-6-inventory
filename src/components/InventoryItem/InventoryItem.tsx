@@ -1,7 +1,8 @@
 import { InventoryItemProps } from "./InventoryItem.types";
+import "./InventoryItem.scss";
 
 export const InventoryItem = ({ item, inventoryWidth }: InventoryItemProps) => {
-  const { category, width, height } = item;
+  const { category, rarity, width, height } = item;
   const cell = 600 / inventoryWidth - 2;
 
   return (
@@ -10,20 +11,18 @@ export const InventoryItem = ({ item, inventoryWidth }: InventoryItemProps) => {
       style={{
         gridColumn: `span ${width}`,
         gridRow: `span ${height}`,
-        position: "relative",
-        zIndex: 20,
+        position: "absolute",
+
       }}>
       <img
-        className="inventory-item__image"
-        src={`/images/${category}2.png`}
+        className={`inventory-item__image`} 
+        src={`/images/${category}-${rarity}.png`}
         alt={category}
         style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
+
           width: `${width * cell - 10 }px`,
           height: `${height * cell - 10}px`,
-          objectFit: "cover",
+
         }}
       />
     </div>

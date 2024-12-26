@@ -1,11 +1,21 @@
 $font: "Inter", sans-serif;
 $error-color: rgb(217, 36, 0);
 
-$common-color: #c6c6c6;
-$uncommon-color: #30b600;
-$rare-color: #0061d8;
-$epic-color: #9200e7;
-$legendary-color: #ff9d00;
+$common-color: #a9bbc1;
+$common-border-color:#495e63; 
+
+$uncommon-color: #32b204;
+$uncommon-border-color: #1a6100;
+
+$rare-color: #137af9;
+$rare-border-color: #003c84;
+
+$epic-color: #8435f2;
+$epic-border-color: #4c05b1;
+
+$legendary-color: #ffa202;
+$legendary-border-color: #ce6300;
+
 
 $app-bg-color: #ffffff;
 $sidebar-bg-color: #f2f2f2;

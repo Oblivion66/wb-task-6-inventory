@@ -5,3 +5,5 @@ export const RARITY_LEVELS = [
   "Эпическое",
   "Легендарное",
 ];
+
+export const INVENTORIES_COUNT = 10;

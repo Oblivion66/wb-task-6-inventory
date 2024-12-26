@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { RARITY_LEVELS } from "./SideBar.consts";
+import { INVENTORIES_COUNT, RARITY_LEVELS } from "./SideBar.consts";
 import "./SideBar.scss";
 import { SideBarAndInventoryProps } from "../../types";
 
@@ -21,7 +21,7 @@ export const SideBar = ({
           onChange={handleSelect}
           className="sidebar__select"
         >
-          {Array.from({ length: 5 }, (_, index) => (
+          {Array.from({ length: INVENTORIES_COUNT }, (_, index) => (
             <option key={nanoid()} value={index + 1}>
               {index + 1}
             </option>

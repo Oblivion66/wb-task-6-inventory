@@ -3,7 +3,7 @@
 .inventory {
   &__grid {
     display: grid;
-    gap: 2px;
+    gap: 4px;
     width: 600px;
     height: 600px;
     justify-self: center;
@@ -20,6 +20,27 @@
   height: 0;
   padding-bottom: 100%;
   background-color: $item-bg-color;
-  border: 1px solid $border-color;
+  outline: 1px solid $border-color;
   box-sizing: border-box;
-}   
+}
+
+.item-common {
+  background-color: $common-color;
+  outline: 2px solid $common-border-color;
+}
+.item-uncommon {
+  background-color: $uncommon-color;
+  outline: 2px solid $uncommon-border-color;
+}
+.item-rare {
+  background-color: $rare-color;
+  outline: 2px solid $rare-border-color;
+}
+.item-epic {
+  background-color: $epic-color;
+  outline: 2px solid $epic-border-color;
+}
+.item-legendary {
+  background-color: $legendary-color;
+  outline: 2px solid $legendary-border-color;
+}
