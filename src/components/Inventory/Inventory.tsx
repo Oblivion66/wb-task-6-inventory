@@ -16,7 +16,7 @@ export const Inventory = () => {
   useEffect(() => {
     const fetchInventory = async () => {
       try {
-        const response = await fetch(`/data/inventory-${currentInventory}.json`);
+        const response = await fetch(`/wb-task-6-inventory/data/inventory-${currentInventory}.json`);
         if (!response.ok) {
           throw new Error("Инвентарь не найден");
         }
