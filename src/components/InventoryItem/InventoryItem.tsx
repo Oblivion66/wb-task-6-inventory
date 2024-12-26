@@ -16,7 +16,7 @@ export const InventoryItem = ({ item, inventoryWidth }: InventoryItemProps) => {
       }}>
       <img
         className={`inventory-item__image`} 
-        src={`/images/${category}-${rarity}.png`}
+        src={`/wb-task-6-inventory/images/${category}-${rarity}.png`}
         alt={category}
         style={{
 
