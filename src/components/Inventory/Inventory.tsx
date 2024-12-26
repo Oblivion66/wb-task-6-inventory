@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { InventoryGrid } from "../InventoryGrid/InventoryGrid";
 import "./Inventory.scss";
-import { SideBar } from "../SideBar/SideBar";
+import { SideBar } from "../SideBar";
 import { Item } from "../../types";
 import { validateInventory } from "../../utils/validation";
 import "./Inventory.scss";
