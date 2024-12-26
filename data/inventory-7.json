@@ -1,0 +1,62 @@
+{
+  "rows": 4,
+  "columns": 4,
+  "items": [
+    {
+      "category": "weapon",
+      "rarity": "rare",
+      "x": 7,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "category": "potion",
+      "rarity": "rare",
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "category": "resource",
+      "rarity": "rare",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "category": "armor",
+      "rarity": "common",
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "category": "weapon",
+      "rarity": "uncommon",
+      "x": 0,
+      "y": 2,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "category": "armor",
+      "rarity": "epic",
+      "x": 2,
+      "y": 2,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "category": "potion",
+      "rarity": "legendary",
+      "x": 3,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    }
+  ]
+}
